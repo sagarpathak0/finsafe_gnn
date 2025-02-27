@@ -42,7 +42,7 @@ node2vec = Node2Vec(
     context_size=context_size,
     walks_per_node=walks_per_node,
     num_negative_samples=num_negative_samples,
-    sparse=sparse
+    sparse=False
 )
 node2vec.load_state_dict(torch.load("node2vec_model.pt", map_location=torch.device('cpu')))
 node2vec.eval()  # Set to evaluation mode
