@@ -1,0 +1,9 @@
+Flask
+torch
+torch-geometric
+networkx
+pandas
+joblib
+numpy
+scikit-learn
+gunicorn
